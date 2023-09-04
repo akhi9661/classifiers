@@ -629,10 +629,3 @@ def classify(raster_paths, training_points=100, uniform_to_random_ratio=0.5, tra
     print('Processing: Completed.')
     return training_sites, test_df, predicted_classes, metrics
 
-b5 = r'D:\Aerosol Modelling\Aerosol\Output\Landsat 8-9\Delhi_147-40_146-40\Delhi_26-10-2021_146-40_S\Resampled_SR\B5_20211026_resample.TIF'
-b4 = r'D:\Aerosol Modelling\Aerosol\Output\Landsat 8-9\Delhi_147-40_146-40\Delhi_26-10-2021_146-40_S\Resampled_SR\B4_20211026_resample.TIF'
-b3 = r'D:\Aerosol Modelling\Aerosol\Output\Landsat 8-9\Delhi_147-40_146-40\Delhi_26-10-2021_146-40_S\Resampled_SR\B3_20211026_resample.TIF'
-
-raster_paths = [b3, b4, b5]
-training_sites, test_df, predicted_image, metrics = classify(raster_paths, training_points = 350, uniform_to_random_ratio = 0.5, 
-                                                             train_to_test_ratio = 0.8, window_size = 1, z_score_threshold = 2, force = True)
