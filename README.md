@@ -17,6 +17,7 @@ Before running the code, make sure you have the following dependencies installed
 - [scikit-learn](https://scikit-learn.org/)
 - [Fiona](https://fiona.readthedocs.io/en/stable/)
 - [Earth Engine Python API](https://developers.google.com/earth-engine/guides/python_install)
+- [GDAL](https://gdal.org/api/python_bindings.html)
 
 You can install these dependencies using pip:
 
