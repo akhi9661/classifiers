@@ -30,7 +30,6 @@ To classify land cover using Random Forest, follow these steps:
 2. Use the `classify` function to perform land cover classification:
 
    ```python
-   from land_cover_classifier import classify
 
    raster_paths = ["image1.tif", "image2.tif"]
    training_sites, test_df, predictions, metrics = classify(
